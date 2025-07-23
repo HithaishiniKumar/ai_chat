@@ -21,4 +21,16 @@ This project is a beginner-friendly **Flask web app** that uses **Gemini AI** to
 ---
 
 ## 🗂️ Project Structure
+ecom_ai/
+├── app.py # Main Flask backend
+├── ecommerce_data.db # SQLite DB created from CSVs
+├── templates/
+│ ├── index.html # Chatbot frontend
+│ └── graph.html # Visualization page
+├── static/
+│ └── plots/ # Generated charts (ROAS, sales)
+├── import_csv_to_sqlite.py # CSV → SQLite converter
+├── README.md # You are here
+
+
 
